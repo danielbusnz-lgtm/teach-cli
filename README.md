@@ -6,6 +6,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/danielbusnz-lgtm/teach-cli?style=flat-square)](https://github.com/danielbusnz-lgtm/teach-cli/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/danielbusnz-lgtm/teach-cli?style=flat-square)](https://github.com/danielbusnz-lgtm/teach-cli/issues)
 [![GitHub last commit](https://img.shields.io/github/last-commit/danielbusnz-lgtm/teach-cli?style=flat-square)](https://github.com/danielbusnz-lgtm/teach-cli/commits/main)
+[![GitHub release](https://img.shields.io/github/v/release/danielbusnz-lgtm/teach-cli?style=flat-square)](https://github.com/danielbusnz-lgtm/teach-cli/releases/latest)
 
 A command-line learning tool that displays random programming fundamentals topics to reinforce knowledge through spaced repetition.
 
