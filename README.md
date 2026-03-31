@@ -1,8 +1,11 @@
 # teach-cli
 
-![Rust](https://img.shields.io/badge/rust-1.91.1-orange?style=flat-square&logo=rust)
-![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)
-![Topics](https://img.shields.io/badge/topics-265-green?style=flat-square)
+[![Rust](https://img.shields.io/badge/rust-1.91.1-orange?style=flat-square&logo=rust)](https://www.rust-lang.org/)
+[![License](https://img.shields.io/badge/license-MIT-blue?style=flat-square)](LICENSE)
+[![Topics](https://img.shields.io/badge/topics-265-green?style=flat-square)](#topic-coverage)
+[![GitHub stars](https://img.shields.io/github/stars/danielbusnz-lgtm/teach-cli?style=flat-square)](https://github.com/danielbusnz-lgtm/teach-cli/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/danielbusnz-lgtm/teach-cli?style=flat-square)](https://github.com/danielbusnz-lgtm/teach-cli/issues)
+[![GitHub last commit](https://img.shields.io/github/last-commit/danielbusnz-lgtm/teach-cli?style=flat-square)](https://github.com/danielbusnz-lgtm/teach-cli/commits/main)
 
 A command-line learning tool that displays random programming fundamentals topics to reinforce knowledge through spaced repetition.
 
@@ -22,7 +25,7 @@ Developers learn new concepts constantly, but forgetting is inevitable. This too
 
 ```bash
 # Clone and install
-git clone https://github.com/yourusername/teach-cli.git
+git clone https://github.com/danielbusnz-lgtm/teach-cli.git
 cd teach-cli
 cargo install --path .
 
@@ -106,12 +109,13 @@ cargo build --release
 teach-cli/
 ├── src/
 │   ├── main.rs              # CLI entry point using clap
-│   ├── lib.rs               # Library root
+│   ├── lib.rs               # Library root (exports fundamentals)
+│   ├── fundamentals.rs      # Module declarations
 │   └── fundamentals/
-│       ├── mod.rs           # Module declarations
 │       ├── python.rs        # 125 Python topics
 │       └── rust.rs          # 140 Rust topics
 ├── Cargo.toml
+├── LICENSE
 └── README.md
 ```
 
